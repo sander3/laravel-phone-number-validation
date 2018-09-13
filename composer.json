@@ -1,0 +1,30 @@
+{
+    "name": "soved/laravel-phone-number-validation",
+    "description": "Validate a phone number",
+    "type": "library",
+    "require": {
+        "php": "^7.0.0",
+        "illuminate/support": "~5.5",
+        "brick/phonenumber": "^0.2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Soved\\Laravel\\Validation\\PhoneNumber\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sander de Vos",
+            "email": "sander@tutanota.de"
+        }
+    ],
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Soved\\Laravel\\Validation\\PhoneNumber\\AppServiceProvider"
+            ]
+        }
+    }
+}
