@@ -1,5 +1,10 @@
 # Validate a phone number
 
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/sander3/laravel-phone-number-validation/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/sander3/laravel-phone-number-validation/?branch=master)
+[![Latest Stable Version](https://poser.pugx.org/soved/laravel-phone-number-validation/v/stable)](https://packagist.org/packages/soved/laravel-phone-number-validation)
+[![Monthly Downloads](https://poser.pugx.org/soved/laravel-phone-number-validation/d/monthly)](https://packagist.org/packages/soved/laravel-phone-number-validation)
+[![License](https://poser.pugx.org/soved/laravel-phone-number-validation/license)](https://packagist.org/packages/soved/laravel-phone-number-validation)
+
 Using Laravel's powerful validation feature.
 
 ## Requirements
