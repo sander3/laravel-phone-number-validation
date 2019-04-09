@@ -2,6 +2,7 @@
 
 namespace Soved\Laravel\Validation\PhoneNumber\Rules;
 
+use Illuminate\Support\Facades\App;
 use Brick\PhoneNumber\PhoneNumber as Validator;
 use Brick\PhoneNumber\PhoneNumberParseException;
 
@@ -23,7 +24,10 @@ class PhoneNumber
         $validator
     ) {
         try {
-            $phoneNumber = Validator::parse($value);
+            $phoneNumber = Validator::parse(
+                $value,
+                strtoupper(App::getLocale())
+            );
         } catch (PhoneNumberParseException $e) {
             return false;
         }
