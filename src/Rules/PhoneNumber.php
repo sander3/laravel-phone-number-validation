@@ -19,13 +19,13 @@ class PhoneNumber
      */
     public function __invoke(
         $attribute,
-        $value,
+        $value = '',
         $parameters,
         $validator
     ) {
         try {
             $phoneNumber = Validator::parse(
-                $value ?? '',
+                $value,
                 strtoupper(App::getLocale())
             );
         } catch (PhoneNumberParseException $e) {
