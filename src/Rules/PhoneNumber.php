@@ -25,7 +25,7 @@ class PhoneNumber
     ) {
         try {
             $phoneNumber = Validator::parse(
-                $value,
+                $value ?? '',
                 strtoupper(App::getLocale())
             );
         } catch (PhoneNumberParseException $e) {
