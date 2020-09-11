@@ -9,7 +9,7 @@ Using Laravel's powerful validation feature.
 
 ## Requirements
 
-- PHP >= 7.0.0
+- PHP >= 7.1
 - Laravel >= 5.5 or 6.0
 
 ## Installation
